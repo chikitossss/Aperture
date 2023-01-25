@@ -54,3 +54,39 @@ header nav ul li:last-of-type a{
     background-size: cover;
     height: calc(100vh - 86px);
 }
+.span_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    justify-content: center;
+    display: flex;
+    padding-top: 461px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.p_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 600px;
+}
