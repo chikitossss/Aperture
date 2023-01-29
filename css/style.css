@@ -53,6 +53,7 @@ header nav ul li:last-of-type a{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
     height: calc(100vh - 86px);
+    position: relative;
 }
 .span_text{
     font-family: 'Poppins', sans-serif;
@@ -92,28 +93,13 @@ h1{
     text-align: center;
     padding-top: 18px;
 }
-/*.info_sec{*/
-/*    display: flex;*/
-/*    justify-content: flex-end;*/
-/*    padding-right: 50px;*/
-/*}*/
-/*.test{*/
-/*    list-style: none;*/
-/*    display: flex;*/
-/*    color: #FFFFFF;*/
-/*    padding-left: 16px;*/
-/*    font-family: 'Poppins', sans-serif;*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    font-size: 12px;*/
-/*    line-height: 12px;*/
-/*}*/
 .sect_vol2{
     justify-content: center;
     background-color: black;
     color: #FFFFFF;
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 113px;
 }
 h2{
     font-family: 'Poppins', sans-serif;
@@ -154,4 +140,100 @@ h2{
     background-color: black;
     border-radius: 16px;
     margin: auto;
+}
+.bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.bottom_icon li{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.bottom_icon li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/3.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.bottom_icon li:nth-child(2):before{
+    background-image: url("../images/1.svg");
+}
+.bottom_icon li:nth-child(3):before{
+    background-image: url("../images/2.svg");
+    width: 32px;
+}
+.bottom_icon li:nth-child(4):before{
+    background-image: url("../images/4.svg");
+    width: 10px;
+    height: 16px;
+}
+.fuji_banner{
+    background-image: url("../images/fuji.jpg");
+    background-size: cover;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.fuji_banner .container{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.banner_article{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.leaves_banner{
+    background-image: url("../images/fern.jpg");
+    background-size: cover;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.leaves_banner .container{
+    max-width: 273px;
+    margin-right: 87px;
+}
+.himalayas_banner{
+    background-image: url("../images/nepal.jpg");
+    background-size: cover;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.himalayas_banner .container{
+    max-width: 254px;
+    margin-right: 106px;
 }
