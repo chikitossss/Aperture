@@ -94,12 +94,14 @@ h1{
     padding-top: 18px;
 }
 .sect_vol2{
-    justify-content: center;
     background-color: black;
     color: #FFFFFF;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h2{
     font-family: 'Poppins', sans-serif;
@@ -125,16 +127,14 @@ h2{
     color: #000000;
     letter-spacing: 0.4px;
     text-decoration: none;
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 9px;
+    padding-bottom: 13px;
     display: flex;
-    max-width: 154px;
-    justify-content: center;
-    margin: auto;
     font-family: 'Poppins', sans-serif;
-    line-height: 20px;
     font-weight: 600;
     padding-right: 10px;
+    padding-left: 9px;
+    width: 143px;
 }
 .border_img{
     background-color: black;
@@ -236,4 +236,67 @@ h2{
 .himalayas_banner .container{
     max-width: 254px;
     margin-right: 106px;
+}
+.sec_vol1{
+    padding: 113px 146px 136px 196px;
+    background-color: black;
+}
+.p_text1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.p_text2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 42px;
+}
+.pic_in_sec{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pic_art{
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.text_art{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.pad{
+    padding-right: 5px;
+}
+section article h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+section article p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 15px;
 }
