@@ -121,20 +121,29 @@ h2{
     padding-bottom: 22px;
 }
 .get{
-    background-color: #FFFFFF;
-    border-radius: 14px;
-    align-items: center;
-    color: #000000;
-    letter-spacing: 0.4px;
-    text-decoration: none;
-    padding-top: 9px;
-    padding-bottom: 13px;
-    display: flex;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    padding-right: 10px;
-    padding-left: 9px;
-    width: 143px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 6px 10px 6px 3px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+.get:before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: black;
+    margin-right: 10px;
 }
 .border_img{
     background-color: black;
@@ -238,7 +247,7 @@ h2{
     margin-right: 106px;
 }
 .sec_vol1{
-    padding: 113px 146px 136px 196px;
+    padding: 113px;
     background-color: black;
 }
 .p_text1{
@@ -265,20 +274,18 @@ h2{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 1170px;
+    margin: auto;
 }
 .pic_art{
     display: block;
     position: relative;
     margin-bottom: 10px;
-    margin-left: 10px;
 }
 .text_art{
     position: absolute;
     bottom: 30px;
     left: 30px;
-}
-.pad{
-    padding-right: 5px;
 }
 section article h5{
     font-family: 'Poppins', sans-serif;
@@ -299,4 +306,8 @@ section article p{
     line-height: 20px;
     color: #C0C0C0;
     margin-bottom: 15px;
+}
+.img_width{
+    width: 100%;
+    display: block;
 }
