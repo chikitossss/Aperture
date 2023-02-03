@@ -54,6 +54,13 @@ header nav ul li:last-of-type a{
     background-size: cover;
     height: calc(100vh - 86px);
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main_banner .container{
+    max-width: 600px;
+    margin: auto;
 }
 .span_text{
     font-family: 'Poppins', sans-serif;
@@ -65,19 +72,16 @@ header nav ul li:last-of-type a{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
-    justify-content: center;
-    display: flex;
-    padding-top: 461px;
+    padding-top: 410px;
 }
-h1{
+main .main_banner h1{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
     line-height: 59px;
     color: #FFFFFF;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .p_text{
     font-family: 'Poppins', sans-serif;
@@ -86,9 +90,6 @@ h1{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
-    display: flex;
-    justify-content: center;
-    margin: auto;
     max-width: 600px;
     text-align: center;
     padding-top: 18px;
