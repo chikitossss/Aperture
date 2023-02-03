@@ -474,12 +474,6 @@ footer form button{
     align-items: center;
     padding-bottom: 140px;
 }
-.past .img_pic a:first-of-type{
-    padding-left: 182px;
-}
-.past .img_pic a:last-of-type{
-    padding-right: 182px;
-}
 .left_logo{
     padding-top: 100px;
 }
@@ -537,4 +531,10 @@ footer .left_text a{
 }
 footer .img_soci li{
     padding-right: 25px;
+}
+.container2{
+    max-width: 1168px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
 }
