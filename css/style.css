@@ -483,13 +483,14 @@ footer form button{
 .left_logo{
     padding-top: 100px;
 }
-footer .left_logo p{
+footer .left_logo_2 p{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
     color: #C0C0C0;
+    padding-bottom: 40px;
 }
 footer .left_logo_2 h4{
     font-family: 'Poppins', sans-serif;
