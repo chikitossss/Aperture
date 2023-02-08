@@ -9,7 +9,7 @@ header{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 header .container{
@@ -43,7 +43,7 @@ header nav ul li:first-of-type a{
 }
 header nav ul li:last-of-type a{
     background-color: #FFFFFF;
-    border-radius: 15px;
+    border-radius: 14px;
     padding: 11px 20px;
     color: #000000;
     font-size: 16px;
@@ -52,7 +52,6 @@ header nav ul li:last-of-type a{
 .main_banner{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
-    height: calc(100vh - 86px);
     position: relative;
     display: flex;
     justify-content: center;
@@ -61,6 +60,7 @@ header nav ul li:last-of-type a{
 .main_banner .container{
     max-width: 600px;
     margin: auto;
+    padding-bottom: 80px;
 }
 .span_text{
     font-family: 'Poppins', sans-serif;
@@ -248,8 +248,12 @@ h2{
     margin-right: 106px;
 }
 .sec_vol1{
-    padding: 113px;
     background-color: black;
+    background-size: cover;
+
+}
+.img_test{
+    max-width: 100%;
 }
 .p_text1{
     font-family: 'Poppins', sans-serif;
@@ -260,6 +264,7 @@ h2{
     text-align: center;
     color: #FFFFFF;
     padding-bottom: 15px;
+    padding-top: 50px;
 }
 .p_text2{
     font-family: 'Poppins', sans-serif;
@@ -402,9 +407,7 @@ footer .sub_menu ul{
 footer .sub_menu ul:first-of-type{
     margin-right: 55px;
 }
-footer .sub_menu ul:last-of-type{
-    margin-right: 100px;
-}
+
 footer .sub_menu ul li:first-of-type{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
