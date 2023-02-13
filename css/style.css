@@ -472,6 +472,10 @@ footer form button{
     color: #C0C0C0;
     padding-bottom: 82px;
 }
+.past .img_pic a{
+    max-width: 128px;
+    display: inline-block;
+}
 .past .img_pic{
     display: flex;
     justify-content: space-between;
@@ -541,4 +545,45 @@ footer .img_soci li{
     display: flex;
     justify-content: space-between;
     margin: auto;
+}
+.owl-items{
+    text-align: center;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+
+
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -25px;
+    top: 30px;
+}
+
+.owl-nav .owl-prev:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.owl-nav .owl-next{
+    position: absolute;
+    right: -25px;
+    top: 30px;
+}
+
+.owl-nav .owl-next:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+    transform: rotate(180deg);
+    display: inline-block;
+}
+.ui-widget.ui-widget-content{
+    background-color: black;
 }
